@@ -9,6 +9,8 @@ server will be in charge of generating intermediate CA's, server certificates, a
 
 ### Environment Variables
 
-| Name                       | Description                                           | Default |
-|----------------------------|-------------------------------------------------------|---------|
-| MTLS_BOT_STORAGE_DIRECTORY | Directory used to store data related to the mTLS bot. |         |
+| Name                       | Description                                                         | Default         |
+|----------------------------|---------------------------------------------------------------------|-----------------|
+| MTLS_BOT_STORAGE_DIRECTORY | Directory used to store data related to the mTLS bot.               |                 |
+| MTLS_BOT_INSECURE_ADDRESS  | Address where the root server will listen for insecure connections. | localhost:50051 |
+| MTLS_BOT_SECURE_ADDRESS    | Address where the root server will listen for secure connections.   | localhost:50052 |

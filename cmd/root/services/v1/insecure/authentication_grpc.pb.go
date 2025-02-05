@@ -4,7 +4,7 @@
 // - protoc             v3.21.12
 // source: api/root/authentication.proto
 
-package services_v1
+package insecure_services_v1
 
 import (
 	context "context"

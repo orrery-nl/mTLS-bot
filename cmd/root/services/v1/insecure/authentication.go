@@ -1,4 +1,4 @@
-package services_v1
+package insecure_services_v1
 
 import (
 	"context"
@@ -21,7 +21,7 @@ type AuthenticationService struct{}
 
 // Start - Start an authentication flow
 func (service *AuthenticationService) Start(ctx context.Context, in *AuthenticationStartRequest) (*AuthenticationStartResponse, error) {
-	
+
 	// Ensure that the id is valid.
 	// ----------------------------------------
 	// 1. The ID cannot be empty.

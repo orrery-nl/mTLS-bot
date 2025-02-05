@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package orrery.mtls_bot.root.v1.authentication;
 
-option go_package = "cmd/root/services/v1;services_v1";
+option go_package = "cmd/root/services/v1/insecure;insecure_services_v1";
 
 message AuthenticationStartRequest {
   string id = 1;
