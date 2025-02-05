@@ -1,3 +1,7 @@
 # IDE-Specific files
 #
 .idea/
+
+# Example Storage
+#
+.example/storage_directory/
